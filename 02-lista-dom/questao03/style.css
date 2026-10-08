@@ -1,0 +1,57 @@
+:root {
+    font-family:monospace, sans-serif;
+    color-scheme: light;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px;
+    display: grid;
+    place-items: center;
+    background: #f2f2f2;
+}
+
+.container {
+    width: min(100%, 640px);
+    padding: 32px;
+    border-radius: 8px;
+    background: #fff;
+    color: #000;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+button {
+    margin: 4px;
+    padding: 8px 14px;
+    cursor: pointer;
+
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    background: #fff;
+}
+
+body.modo-escuro .container {
+    background: #fff;
+    color: #000;
+}
+

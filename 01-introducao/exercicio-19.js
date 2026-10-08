@@ -4,4 +4,10 @@
 
 let compra = 600;
 
-if (compra > 500) { console.log("Desconto: 15%"); } else if (compra >= 200) { console.log("Desconto: 10%"); } else { console.log("Desconto: 0%"); }
+if (compra > 500) { console.log("Desconto: 15%"); 
+
+} else if (compra >= 200) { console.log("Desconto: 10%"); 
+
+} else { console.log("Desconto: 0%"); 
+    
+}
